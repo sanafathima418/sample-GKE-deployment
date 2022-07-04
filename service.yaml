@@ -1,0 +1,12 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: sample-deployment
+spec:
+  selector:
+    app: sample-deployment
+  ports:
+    - protocol: "TCP"
+      port: 80
+      targetPort: 8500
+  type: LoadBalancer
