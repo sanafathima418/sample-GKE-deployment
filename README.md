@@ -6,8 +6,8 @@
 - Build the docker image using - docker build -t "name of image" .
 - Check docker images in system using "docker images"
 - To run the application on docker - docker run -it "name of docker image" : THIS IS A CONTAINER
-- -d in place of -it runs the app in the background and can be checked using  - "docker ps"
-- To kill container running on docker - docker kill "container id" - container id can be obtained from docker ps
+	- -d in place of -it runs the app in the background and can be checked using  - "docker ps"
+	- To kill container running on docker - docker kill "container id" - container id can be obtained from docker ps
 
 # Moving the app to Kubernetes (GKE cluster)
 
